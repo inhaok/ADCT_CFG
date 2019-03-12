@@ -88,9 +88,9 @@ namespace ADCT_CFG.Model
             WriteIniData("SQLSetting", "SQLUserName", "sa");
             WriteIniData("SQLSetting", "SQLPwd", "jiminewpower");
             WriteIniData("SQLSetting", "SQLDataBase", "GPSTest");
-            WriteIniData("SQLSetting", "SQLAddress", "ftp://120.77.221.153:21/");
-            WriteIniData("SQLSetting", "SQLUserName", "jimiftp");
-            WriteIniData("SQLSetting", "SQLPwd", "jimiftp");
+            WriteIniData("FTPSetting", "FTPAddress", "ftp://120.77.221.153:21/");
+            WriteIniData("FTPSetting", "FTPUserName", "jimiftp");
+            WriteIniData("FTPSetting", "FTPPWD", "jimiftp");
         }
         #endregion
     }

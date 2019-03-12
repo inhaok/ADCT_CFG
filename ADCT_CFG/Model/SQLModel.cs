@@ -91,6 +91,7 @@ namespace ADCT_CFG.Model
             catch (Exception ex)
             {
                 MessageBox.Show("数据源获取失败:{0}", ex.Message);
+
                 return null;
             }
         }
